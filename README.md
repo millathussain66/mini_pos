@@ -1,61 +1,86 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# Laravel Point Of Sale (POS)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Database 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<ul>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+#### Admin Login
 
-## Learning Laravel
+#### UserGroup
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+     Users (Sales, Purchase, Payment, Receipt)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+#### Categories
+#### Products
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+ #### Sales 
+	Invoice
+	Items
 
-### Premium Partners
+#### Purchases
+	Invoices
+	items
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+#### Payments
+#### Receipts
+</ul>
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+# Use Laravel 8
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--nWYze10a--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/qtwqedl51vqx5zkxa65d.png">
 
-## Security Vulnerabilities
+# Some Screenshots In This Project
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16127723-f5ad8c6b55fad50131beaf5fe3bf143e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T171128Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=17c36b826d18e9584c485ae92f0bbfc08dd3ea05a725155a6ea8e484fd95d876">
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# User Group
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128000-020fd863070f5765ac00dcaf64a8f7a5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T171500Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=53598964d65dd3759dcba6d7694c3f7fc32557d67fa3b219a90207bb6c3581ea">
+
+
+# Users 
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128072-d68ada90638c28abf4b5a0380a620d35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T171619Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=d3d5c6f6464686aa09c699b4607676366161fc685074e0eaedb944f7969f3979">
+
+# Categories
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128210-8127ce9a6b9551365cfedea1eb0dec22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T171841Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=532e00018b183459ae1aea6914624bd48389e97b08f772a30e697dd81027ac94">
+
+# Products
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128255-c155a65c27abb7cbac047cdc2ebbb740.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T171932Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=a88f45891af5da88192c8739f5e44c5a584477f6626168c50a6bec32c8fe447d">
+
+# Products Stock
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128297-2598b5fde41048cf682debd906c8e647.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172023Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=89325ac208431ec352e4149ca6b7cb65afc34810a933715be9ea06c53465485e">
+
+# Day Reports
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128359-723ea2043b255278e4c1ef29a01f6712.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172128Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=4a0eb5854df2d892459396f450d7294f88f7d05c951b79cce349315c1c6f3eed">
+
+# Sales Report
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128421-7225cd0f5eac93ecdba6bf8782b6bffb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172233Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=42e9d0cd9990bbe08ead183920d4e7fa35259d0aff126e70dfa1e92ecf10a574">
+
+
+# Purchases Report
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128469-510be59ae079996731a861567e6fe7f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172313Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=2015a1071afb46e7fa97ca6672d28753008822f2970f398c6832653c4f933e57">
+
+
+# Payments Report
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128490-841a0ee76a31a48d12c16929f44f3338.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172340Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=ddb652fe9ebdc6a2765080d40aa748c553159341b0886bfcbbc0a5139e2f777b">
+
+# Receipts Report
+
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/2624278/16128521-bd3340470877b6cf776dc40db29b54b5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211103T172415Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f89c170c5f261c40aaeb2f1beaaedca149525d23d8db47ec8d1724918e2a442">
+
+# Day Reports
+<img src="">
+

@@ -27,5 +27,6 @@ class LoginRequest extends FormRequest
             'email'     => 'required|email|exists:admins',
             'password'  => 'required',
         ];
+        // 
     }
 }

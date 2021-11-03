@@ -1,3 +1,9 @@
+MD.Millat Hussain
+
+Mini Pos Project
+
+Use some advance Laravel 
+
 Admin Login
 
 UserGroup
@@ -6,7 +12,7 @@ Users (Sales, Purchase, Payment, Receipt)
 Categories
 Products
 
-Sales 
+Sales
 	Invoice
 	Items
 
